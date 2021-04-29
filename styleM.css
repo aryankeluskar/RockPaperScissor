@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    padding: 5vw;
+    justify-content: center;
+}
+
+button {
+    height: 10vw;
+    width: 23vw;
+    margin: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 6vw !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+img {
+    margin-top: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 50vw;
+}
+
+img.user {
+    transform: rotate(180deg);
+}
+
+img.com {
+    position: absolute;
+    bottom: 25vw;
+    left: 35vw;
+    right: 35vw;
+}
+
+p#comsi {
+    text-transform: uppercase;
+    font-weight: bolder;
+    left: 23vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 35vw;
+    font-size: 10vw;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 5vw;
+}
+
+p#ussi {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vw;
+    color: whitesmoke;
+}
+
+marquee {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 2vw;
+}
+
+#worl {
+    position: absolute;
+    margin-top: 3vw;
+    padding: 2.5vw;
+    left: 30vw;
+    right: 30vw;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    color: greenyellow;
+    border: 10px solid green;
+    background-color: whitesmoke;
+    z-index: 100;
+}
