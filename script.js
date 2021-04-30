@@ -22,19 +22,21 @@ function stnclick() {
     if (cr == 1) {
         document.getElementById('worl').innerHTML = "TIE"
         document.getElementById('worl').style.color = "#ffd700"
-        document.getElementById('worl').style.border = "2.5vw solid #ffd700"
+            // document.getElementById('worl').style.border = "2.5vw solid #ffd700"
+        document.getElementById('worl').style.borderColor = "#ffd700"
         document.getElementById('com').src = "rock.png"
     }
     if (cr == 2) {
         document.getElementById('worl').innerHTML = "lost"
         document.getElementById('worl').style.color = "f00"
-        document.getElementById('worl').style.border = "2.5vw solid #f00"
+            // document.getElementById('worl').style.border = "2.5vw solid #f00"
+        document.getElementById('worl').style.borderColor = "#f00"
         document.getElementById('com').src = "paper.png"
     }
     if (cr == 3) {
         document.getElementById('worl').innerHTML = "won"
         document.getElementById('worl').style.color = "#0f0"
-        document.getElementById('worl').style.border = "2.5vw solid #0f0"
+        document.getElementById('worl').style.borderColor = "#0f0"
         document.getElementById('com').src = "scissor.png"
     }
     document.getElementById("btnplay1").disabled = "true";
@@ -49,19 +51,22 @@ function papclick() {
     if (cr == 2) {
         document.getElementById('worl').innerHTML = "TIE"
         document.getElementById('worl').style.color = "#ffd700"
-        document.getElementById('worl').style.border = "2.5vw solid #ffd700"
+            // document.getElementById('worl').style.border = "2.5vw solid #ffd700"
+        document.getElementById('worl').style.borderColor = "#ffd700"
         document.getElementById('com').src = "paper.png"
     }
     if (cr == 3) {
         document.getElementById('worl').innerHTML = "lost"
         document.getElementById('worl').style.color = "f00"
-        document.getElementById('worl').style.border = "2.5vw solid #f00"
+            // document.getElementById('worl').style.border = "2.5vw solid #f00"
+        document.getElementById('worl').style.borderColor = "#f00"
         document.getElementById('com').src = "scissor.png"
     }
     if (cr == 1) {
         document.getElementById('worl').innerHTML = "won"
         document.getElementById('worl').style.color = "#0f0"
-        document.getElementById('worl').style.border = "2.5vw solid #0f0"
+            // document.getElementById('worl').style.border = "2.5vw solid #0f0"
+        document.getElementById('worl').style.borderColor = "#0f0"
         document.getElementById('com').src = "rock.png"
     }
     document.getElementById("btnplay1").disabled = "true";
@@ -76,19 +81,22 @@ function sciclick() {
     if (cr == 3) {
         document.getElementById('worl').innerHTML = "TIE"
         document.getElementById('worl').style.color = "#ffd700"
-        document.getElementById('worl').style.border = "2.5vw solid #ffd700"
+            // document.getElementById('worl').style.border = "2.5vw solid #ffd700"
+        document.getElementById('worl').style.borderColor = "#ffd700"
         document.getElementById('com').src = "scissor.png"
     }
     if (cr == 1) {
         document.getElementById('worl').innerHTML = "lost"
         document.getElementById('worl').style.color = "f00"
-        document.getElementById('worl').style.border = "2.5vw solid #f00"
+            // document.getElementById('worl').style.border = "2.5vw solid #f00"
+        document.getElementById('worl').style.borderColor = "#f00"
         document.getElementById('com').src = "rock.png"
     }
     if (cr == 2) {
         document.getElementById('worl').innerHTML = "won"
         document.getElementById('worl').style.color = "#0f0"
-        document.getElementById('worl').style.border = "2.5vw solid #0f0"
+            // document.getElementById('worl').style.border = "2.5vw solid #0f0"
+        document.getElementById('worl').style.borderColor = "#0f0"
         document.getElementById('com').src = "paper.png"
     }
     document.getElementById("btnplay1").disabled = "true";

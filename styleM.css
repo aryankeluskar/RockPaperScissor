@@ -67,6 +67,7 @@ p#ussi {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10vw;
     color: whitesmoke;
+    margin-bottom: 1%;
 }
 
 marquee {
@@ -82,13 +83,14 @@ marquee {
 
 #worl {
     height: 7.5%;
+    width: 23%;
     position: absolute;
     visibility: hidden;
-    top: 50%;
-    left: 30vw;
-    right: 30vw;
-    display: inline-block;
-    padding: 1vw;
+    top: 52%;
+    padding: 1%;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 33%;
     text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
@@ -96,7 +98,8 @@ marquee {
     /* color: #0f0; */
     /* color: #ffd700; */
     /* border: 3vw solid #0f0; */
-    /* border: 3vw solid #ffd700; */
+    border: 2vw solid;
     background-color: whitesmoke;
+    overflow: hidden;
     z-index: 100;
 }
