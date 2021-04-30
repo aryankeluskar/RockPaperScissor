@@ -13,8 +13,6 @@ if (10 > 5) {
 let cr = Math.floor((Math.random() * 300000) / 100000) + 1;
 console.log(cr);
 
-document.getElementById('worl').style.top = "50%"
-
 function stnclick() {
     document.getElementById('user').src = "rock.png"
     document.getElementById('worl').style.visibility = "visible"
@@ -39,7 +37,7 @@ function stnclick() {
     document.getElementById("btnplay1").disabled = "true";
     document.getElementById("btnplay2").disabled = "true";
     document.getElementById("btnplay3").disabled = "true";
-    setTimeout(function() { alert("Refresh to Play Again!"); }, 1000);
+    setTimeout(function() { alert("Refresh to Play Again!"); }, 3000);
 }
 
 function papclick() {

@@ -24,6 +24,10 @@ button {
     text-transform: uppercase;
 }
 
+button#btnplay3 {
+    width: 30vw
+}
+
 img {
     margin-top: 3vw;
     display: block;
