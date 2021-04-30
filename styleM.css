@@ -81,18 +81,18 @@ marquee {
 }
 
 #worl {
+    height: 7.5%;
     position: absolute;
     visibility: hidden;
     top: 50%;
     left: 30vw;
     right: 30vw;
     display: inline-block;
-    padding: 2.5vw;
+    padding: 1vw;
     text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10vw;
     /* color: #0f0; */
     /* color: #ffd700; */
     /* border: 3vw solid #0f0; */

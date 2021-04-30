@@ -10,6 +10,9 @@ if (10 > 5) {
     console.log("10");
 }
 
+let worlfs = 0.03 * screen.availHeight;
+document.getElementById('worl').style.fontSize = JSON.stringify(worlfs);
+
 let cr = Math.floor((Math.random() * 300000) / 100000) + 1;
 console.log(cr);
 
