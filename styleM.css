@@ -4,12 +4,22 @@ body {
     justify-content: center;
 }
 
+#prompt {
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    color: whitesmoke;
+}
+
 button {
     height: 10vw;
-    width: 23vw;
+    width: 22vw;
     margin: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-size: 6vw !important;
+    font-size: 5vw !important;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -67,8 +77,10 @@ marquee {
 }
 
 #worl {
+    /* visibility: hidden; */
+    vertical-align: middle;
     position: absolute;
-    margin-top: 3vw;
+    top: 110vw;
     padding: 2.5vw;
     left: 30vw;
     right: 30vw;
@@ -78,8 +90,10 @@ marquee {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10vw;
-    color: greenyellow;
-    border: 10px solid green;
+    color: #0f0;
+    /* color: #f00; */
+    border: 3vw solid #0f0;
+    /* border: 10vw solid #f00; */
     background-color: whitesmoke;
     z-index: 100;
 }

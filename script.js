@@ -12,3 +12,9 @@ if (10 > 5) {
 
 let cr = Math.round(Math.random() * 3);
 console.log(cr);
+
+let wt = document.getElementById('worl');
+console.log(wt);
+console.log(document.getElementById("ussi"));
+
+// document.getElementById("worl").style.top = "";
