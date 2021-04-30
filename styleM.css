@@ -30,14 +30,14 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    height: 50vw;
+    height: 25%;
 }
 
-img.user {
+img#user {
     transform: rotate(180deg);
 }
 
-img.com {
+img#com {
     position: absolute;
     bottom: 25vw;
     left: 35vw;
@@ -48,6 +48,7 @@ p#comsi {
     text-transform: uppercase;
     font-weight: bolder;
     left: 23vw;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     right: 35vw;
     font-size: 10vw;
@@ -77,23 +78,22 @@ marquee {
 }
 
 #worl {
-    /* visibility: hidden; */
-    vertical-align: middle;
     position: absolute;
-    top: 110vw;
-    padding: 2.5vw;
+    visibility: hidden;
+    top: 50%;
     left: 30vw;
     right: 30vw;
     display: inline-block;
+    padding: 2.5vw;
     text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10vw;
-    color: #0f0;
-    /* color: #f00; */
-    border: 3vw solid #0f0;
-    /* border: 10vw solid #f00; */
+    /* color: #0f0; */
+    /* color: #ffd700; */
+    /* border: 3vw solid #0f0; */
+    /* border: 3vw solid #ffd700; */
     background-color: whitesmoke;
     z-index: 100;
 }

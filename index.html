@@ -10,23 +10,23 @@
     <link rel="stylesheet" href="boot.css">
 </head>
 
-<script src="script.js"></script>
 
 <body>
     <div id="prompt">Choose your move:</div>
-    <button class="btn btn-primary">Rock</button>
-    <button class="btn btn-primary">Paper</button>
-    <button class="btn btn-primary" style="width: 30vw;">Scissor</button>
-    <p id="ussi">You</p>
-    <img class="user" src="rock.png" alt="">
-    <!-- <img class="user" src="paper.png" alt="">
-    <img class="user" src="scissor.png" alt=""> -->
+    <button onclick="stnclick();" id="btnplay1" class="btn btn-primary">Rock</button>
+    <button onclick="papclick();" id="btnplay2" class="btn btn-primary">Paper</button>
+    <button onclick="sciclick();" id="btnplay3" class="btn btn-primary" style="width: 30vw;">Scissor</button>
+    <p id="ussi">Your Side</p>
+    <!-- <img class="user" src="rock.png" alt=""> -->
+    <!-- <img class="user" src="paper.png" alt=""> -->
+    <img id="user" alt="">
     <div id="worl">Won</div>
-    <!-- <img class="com" src="rock.png" alt="">
-    <img class="com" src="paper.png" alt=""> -->
-    <img class="com" src="scissor.png" alt="">
+    <!-- <img class="com" src="rock.png" alt=""> -->
+    <img id="com" alt="">
     <p id="comsi">Computer</p>
-    <marquee behavior="" direction="">Developed by Aryan Incorporated</marquee>
+    <marquee scrollamount="15">Developed by Aryan Incorporated</marquee>
 </body>
+
+<script src="script.js"></script>
 
 </html>
