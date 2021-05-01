@@ -50,14 +50,13 @@ img#com {
 p#comsi {
     text-transform: uppercase;
     font-weight: bolder;
-    left: 23vw;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    right: 35vw;
-    font-size: 10vw;
+    font-size: 7.5vw;
     color: whitesmoke;
     position: absolute;
     bottom: 5vw;
+    width: 100%;
 }
 
 p#ussi {

@@ -46,6 +46,16 @@ img {
     display: flex;
 }
 
+#prompt {
+    margin-top: 2vw;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+
 img#user {
     transform: rotate(90deg);
 }
