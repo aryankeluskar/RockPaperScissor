@@ -4,6 +4,7 @@ if (screen.availWidth > screen.availHeight) {
 } else {
     console.log("phone");
     document.write("<link rel=\"stylesheet\" href=\"styleM.css\" >")
+    document.getElementById('comsi').innerHTML = "Phone "
 }
 
 if (10 > 5) {

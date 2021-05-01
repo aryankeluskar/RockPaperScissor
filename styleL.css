@@ -66,6 +66,7 @@ img#com {
     text-align: center;
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
+    visibility: hidden;
     /* color: #0f0; */
     /* color: #ffd700; */
     border: 0.6vw solid #0f0;
@@ -84,6 +85,17 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
     color: whitesmoke;
+}
+
+marquee {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 2vw;
 }
 
 p#ussi {
