@@ -47,7 +47,10 @@ function stnclick() {
     document.getElementById("btnplay1").disabled = "true";
     document.getElementById("btnplay2").disabled = "true";
     document.getElementById("btnplay3").disabled = "true";
-    setTimeout(function() { alert("Refresh to Play Again!"); }, 3000);
+    setTimeout(function() {
+        alert("Thanks for playing");
+        window.location.reload();
+    }, 1000);
 }
 
 function papclick() {
@@ -84,7 +87,10 @@ function papclick() {
     document.getElementById("btnplay1").disabled = "true";
     document.getElementById("btnplay2").disabled = "true";
     document.getElementById("btnplay3").disabled = "true";
-    setTimeout(function() { alert("Refresh to Play Again!"); }, 1000);
+    setTimeout(function() {
+        alert("Thanks for playing");
+        window.location.reload();
+    }, 1000);
 }
 
 function sciclick() {
@@ -121,5 +127,8 @@ function sciclick() {
     document.getElementById("btnplay1").disabled = "true";
     document.getElementById("btnplay2").disabled = "true";
     document.getElementById("btnplay3").disabled = "true";
-    setTimeout(function() { alert("Refresh to Play Again!"); }, 1000);
+    setTimeout(function() {
+        alert("Thanks for playing");
+        window.location.reload();
+    }, 1000);
 }
